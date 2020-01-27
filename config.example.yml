@@ -1,0 +1,25 @@
+# You need to obtain the api_id and api_hash parameters required for user authorization.
+#Log in your Telegram core: https://my.telegram.org.
+#Go to 'API development tools' and fill out the form.
+
+api_id: 1234567
+api_hash: 'somehashplacehere'
+session_name: 'telegramforward' # Session name.
+
+
+# allow or not to show forward message -> false is like copy paste mode
+forward_message: false
+
+# The channel names that you'd like to forward messages from. Allow multiples
+input_is_id: True
+input_channel:
+   - 123456789
+   - 123456789
+  #- 'exactly name'
+
+# The output channel name that the messages will be forwarded to. Only allow forward to one
+output_is_id: True
+output_channel: 367274753
+
+## NOTE: you can also use the chat name, just change * _is_id to false, and write the name with like 'exactly name'.
+## cannot use names and ID's at the same time
