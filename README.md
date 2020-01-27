@@ -7,7 +7,7 @@ Requirements: python3.xx , pip
 3. pip install -r requirements.txt
 4. deactivate
 
-#how to config:
+# how to config:
 
 change file config.example.yml to config.yml and do some configs
 
